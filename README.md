@@ -1,1 +1,1 @@
-A test service
+A test service that can be deployed.
