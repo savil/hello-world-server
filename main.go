@@ -2,8 +2,11 @@ package main
 import (
     "fmt"
     "net/http"
+    "os"
 )
 func hello(w http.ResponseWriter, req *http.Request) {
+    fmt.Fprintf(os.Stderr, "Headers: %+v\n", req.Header)
+
     fmt.Fprintf(w, "hello world 10\n")
 }
 
