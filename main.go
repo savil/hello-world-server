@@ -5,7 +5,7 @@ import (
     "os"
 )
 func hello(w http.ResponseWriter, req *http.Request) {
-    fmt.Fprintf(w, "hello world 11\n")
+    fmt.Fprintf(w, "hello world 12\n")
 }
 
 func main() {
