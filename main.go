@@ -2,7 +2,6 @@ package main
 import (
     "fmt"
     "net/http"
-    "os"
 )
 func hello(w http.ResponseWriter, req *http.Request) {
     fmt.Fprintf(w, "hello world 12\n")
